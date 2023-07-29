@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="styles/utils.css" />
     <link rel="stylesheet" href="styles/components/header.css" />
     <link rel="stylesheet" href="styles/components/hero.css" />
+    <link rel="stylesheet" href="styles/components/about.css">
     <link
       href="https://api.fontshare.com/v2/css?f[]=general-sans@500,600,400,700&display=swap"
       rel="stylesheet"
@@ -82,36 +83,42 @@
         <a class="hero__btn btn" href="#">Reach Out</a>
       </section>
       <section class="about container section">
-        <div>
-          <h2>About</h2>
-          <p>
-            Hello there! I'm Ramzi, a <strong> Frontend / Fullstack-Jamstack </strong>
-            developer based near Montreal. I wake up in the morning, grab a cup
+        <div class="about__content">
+          <h2 class="about__title">About</h2>
+          <p class="about__description">
+            Hello there! I'm Kanai, a
+            <strong> Frontend / Fullstack-JavaScript </strong>
+            developer based near San Francisco. I wake up in the morning, grab a cup
             of timmies coffee, open up my laptop and build things that live on
             the web all day, everyday.
           </p>
-          <p>
-            People who know me say I'm obsessed, 
-            that's fair, I am very driven
+          <p class="about__description">
+            People who know me say I'm obsessed, that's fair, I am very driven
             and love learning new things.
           </p>
-          <p>
-            I recently created a YouTube channel called 
-            <a>Slaying The Dragon </a> where
-            I upload videos on front-end web development topics.
+          <p class="about__description">
+            I recently created a YouTube channel called
+            <a>Slaying The Dragon </a> where I upload videos on front-end web
+            development topics.
           </p>
-          <hr />
-          <h3>Technologies</h3>
-          <ul>
-            <li>javaScript (ES6+)</li>
-            <li>CSS</li>
-            <li>HTML</li>
-            <li>ReactJS</li>
-            <li>NextJS</li>
-            <li>TailwindCSS</li>
-          </ul>
+          <hr class="about__hr" />
+          <h3 class="about__subtitle">Technologies</h3>
+          <div class="about__ul-container">
+            <ul class="about__ul">
+              <li class="about__list">javaScript (ES6+)</li>
+              <li class="about__list">CSS</li>
+              <li class="about__list">HTML</li>
+            </ul>
+            <ul class="about__ul">
+              <li class="about__list">ReactJS</li>
+              <li class="about__list">NextJS</li>
+              <li class="about__list">TailwindCSS</li>  
+            </ul>
+          </div>
         </div>
-        <div></div>
+        <div class="about__img-wrapper">
+          <img class="about__img" src="/portfolio/public/About-photo.jpeg" alt="Profile Picture">
+        </div>
       </section>
       <!-- <section></section> -->
       <!-- <section></section> -->
