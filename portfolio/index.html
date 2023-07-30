@@ -9,7 +9,9 @@
     <link rel="stylesheet" href="styles/utils.css" />
     <link rel="stylesheet" href="styles/components/header.css" />
     <link rel="stylesheet" href="styles/components/hero.css" />
-    <link rel="stylesheet" href="styles/components/about.css">
+    <link rel="stylesheet" href="styles/components/about.css" />
+    <link rel="stylesheet" href="styles/components/featured.css" />
+    <link rel="stylesheet" href="styles/components/work.css" />
     <link
       href="https://api.fontshare.com/v2/css?f[]=general-sans@500,600,400,700&display=swap"
       rel="stylesheet"
@@ -88,18 +90,18 @@
           <p class="about__description">
             Hello there! I'm Kanai, a
             <strong> Frontend / Fullstack-JavaScript </strong>
-            developer based near San Francisco. I wake up in the morning, grab a cup
-            of timmies coffee, open up my laptop and build things that live on
-            the web all day, everyday.
+            developer based near San Francisco. I wake up in the morning, grab a
+            cup of timmies coffee, open up my laptop and build things that live
+            on the web all day, everyday.
           </p>
           <p class="about__description">
             People who know me say I'm obsessed, that's fair, I am very driven
             and love learning new things.
           </p>
           <p class="about__description">
-            I recently created a YouTube channel called
-            <a>Slaying The Dragon </a> where I upload videos on front-end web
-            development topics.
+            My Hobbies are
+            <a>gaming, anime, & boxing </a> & I engage in these activities on a
+            daily basis.
           </p>
           <hr class="about__hr" />
           <h3 class="about__subtitle">Technologies</h3>
@@ -112,16 +114,139 @@
             <ul class="about__ul">
               <li class="about__list">ReactJS</li>
               <li class="about__list">NextJS</li>
-              <li class="about__list">TailwindCSS</li>  
+              <li class="about__list">TailwindCSS</li>
             </ul>
           </div>
         </div>
         <div class="about__img-wrapper">
-          <img class="about__img" src="/portfolio/public/About-photo.jpeg" alt="Profile Picture">
+          <img
+            class="about__img"
+            src="/portfolio/public/About-photo.jpeg"
+            alt="Profile Picture"
+          />
         </div>
       </section>
-      <!-- <section></section> -->
-      <!-- <section></section> -->
+      <section class="featured container section">
+        <h3 class="featured__subtitle">Featured project</h3>
+        <div class="featured__wrapper">
+          <h2 class="featured__title">Slaying The Dragon</h2>
+          <a class="featured__link" href="#">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M13.19 8.688a4.5 4.5 0 011.242 7.244l-4.5 4.5a4.5 4.5 0 01-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 00-6.364-6.364l-4.5 4.5a4.5 4.5 0 001.242 7.244"
+              />
+            </svg>
+          </a>
+        </div>
+        <p class="featured__description">
+          Cillum voluptate tempor cillum culpa cupidatat labore voluptate
+          ullamco voluptate culpa sunt nulla non. Ad cupidatat dolore quis amet
+          pariatur consectetur ullamco. Officia quis id velit duis cupidatat
+          sunt deserunt do aliquip nulla laboris.
+        </p>
+        <div class="featured__info-container">
+          <div>
+            <h3 class="featured__label">Tech stack</h3>
+            <ul class="featured__tech-stack">
+              <li class="featured__info">TailwindCSS</li>
+              <li class="featured__info">ReactJS</li>
+              <li class="featured__info">React-hook-form</li>
+              <li class="featured__info">NextJS</li>
+              <li class="featured__info">Axios</li>
+              <li class="featured__info">Supabase</li>
+              <li class="featured__info">Stripe</li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="featured__label"></h3>
+            <p class="featured__info">Fullstack</p>
+          </div>
+          <div>
+            <h3 class="featured__label">Timeline</h3>
+            <p class="featured__info">December 2022 - present</p>
+          </div>
+        </div>
+        <div class="featured__img-container">
+          <div class="featured__img-wrapper">
+            <img
+              src="/portfolio/public/slayingthedragon.png"
+              alt="Slaying The Dragon hero"
+            />
+          </div>
+          <div class="featured__img-wrapper">
+            <img
+              src="/portfolio/public/courses.png"
+              alt="Slaying The Dragon courses"
+            />
+          </div>
+          <div class="featured__img-wrapper">
+            <img
+              src="/portfolio/public/pricing.png"
+              alt="Slaying The Dragon pricing"
+            />
+          </div>
+          <div class="featured__img-wrapper">
+            <img
+              src="/portfolio/public/features.png"
+              alt="Slaying The Dragon features"
+            />
+          </div>
+          <div class="featured__img-wrapper">
+            <img
+              src="/portfolio/public/faq.png"
+              alt="Slaying The Dragon faqs"
+            />
+          </div>
+          <div class="featured__img-wrapper">
+            <img
+              src="/portfolio/public/blog.png"
+              alt="Slaying The Dragon blog"
+            />
+          </div>
+          <div class="featured__img-wrapper">
+            <img
+              src="/portfolio/public/signin.png"
+              alt="Slaying The Dragon sign-in"
+            />
+          </div>
+          <div class="featured__img-wrapper">
+            <img
+              src="/portfolio/public/app.png"
+              alt="Slaying The Dragon dashboard"
+            />
+          </div>
+        </div>
+      </section>
+      <section class="work container section">
+        <h2 class="work__title">Projects</h2>
+        <p class="work__description">
+          Mollit pariatur tempor nisi dolor non consequat magna cupidatat
+          reprehenderit. Aliquip excepteur ullamco aliquip magna est et commodo
+          deserunt ipsum.
+        </p>
+        <!-- Project 1 -->
+        <h3 class="work__project-title">Wax Motif</h3>
+        <img src="/portfolio/public/waxmoney.png" alt="Wax Motif Website" />
+        <p>
+          Labore magna ut non labore Lorem nisi culpa sint et quis sint. Enim
+          pariatur deserunt do ad exercitation.
+        </p>
+        <p>
+          Ea ut non cupidatat consequat sint elit ipsum culpa dolor cillum
+          commodo. Do esse excepteur cillum deserunt duis incididunt. Eu tempor
+          ullamco aliqua consectetur incididunt anim dolor sunt laboris
+          adipisicing cupidatat sint.
+        </p>
+        <a class="btn" href="#">Website</a>
+      </section>
       <!-- <section></section> -->
     </main>
     <footer></footer>
