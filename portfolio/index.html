@@ -157,8 +157,9 @@
         </div>
         <div class="about__img-wrapper">
           <img
-            class="about__img"
-            src="/portfolio/public/About-photo.jpeg"
+            class="about__img lazy loading"
+            src="https://fakeimg.pl/720x720"
+            data-src="/portfolio/public/About-photo.jpeg"
             alt="Profile Picture"
           />
         </div>
@@ -214,49 +215,65 @@
         <div class="featured__img-container">
           <div class="featured__img-wrapper">
             <img
-              src="/portfolio/public/slayingthedragon.png"
+              class="lazy loading"
+              src="https://fakeimg.pl/1920x968"
+              data-src="/portfolio/public/slayingthedragon.png"
               alt="Slaying The Dragon hero"
             />
           </div>
           <div class="featured__img-wrapper">
             <img
-              src="/portfolio/public/courses.png"
+              class="lazy loading"
+              src="https://fakeimg.pl/1920x968"
+              data-src="/portfolio/public/courses.png"
               alt="Slaying The Dragon courses"
             />
           </div>
           <div class="featured__img-wrapper">
             <img
-              src="/portfolio/public/pricing.png"
+              class="lazy loading"
+              src="https://fakeimg.pl/1920x968"
+              data-src="/portfolio/public/pricing.png"
               alt="Slaying The Dragon pricing"
             />
           </div>
           <div class="featured__img-wrapper">
             <img
-              src="/portfolio/public/features.png"
+              class="lazy loading"
+              src="https://fakeimg.pl/1920x968"
+              data-src="/portfolio/public/features.png"
               alt="Slaying The Dragon features"
             />
           </div>
           <div class="featured__img-wrapper">
             <img
-              src="/portfolio/public/faq.png"
+              class="lazy loading"
+              src="https://fakeimg.pl/1920x968"
+              data-src="/portfolio/public/faq.png"
               alt="Slaying The Dragon faqs"
             />
           </div>
           <div class="featured__img-wrapper">
             <img
-              src="/portfolio/public/blog.png"
+              class="lazy loading"
+              src="https://fakeimg.pl/1920x968"
+              data-src="/portfolio/public/blog.png"
               alt="Slaying The Dragon blog"
             />
           </div>
           <div class="featured__img-wrapper">
             <img
-              src="/portfolio/public/signin.png"
+              class="lazy loading"
+              src="https://fakeimg.pl/1920x968"
+              data-src="/portfolio/public/signin.png"
               alt="Slaying The Dragon sign-in"
             />
           </div>
           <div class="featured__img-wrapper">
             <img
-              src="/portfolio/public/app.png"
+              class="lazy loading"
+              src="https://fakeimg.pl/1920x968"
+              data-src="/portfolio/public/app.png"
               alt="Slaying The Dragon dashboard"
             />
           </div>
@@ -274,7 +291,12 @@
           <!-- Project 1 -->
           <h3 class="work__project-title">Wax Motif</h3>
           <div class="work__img-wrapper work__image1">
-            <img src="/portfolio/public/waxmoney.png" alt="Wax Motif Website" />
+            <img
+              class="lazy loading"
+              src="https://fakeimg.pl/900"
+              data-src="/portfolio/public/waxmoney.png"
+              alt="Wax Motif Website"
+            />
           </div>
           <div class="work__project work__content1">
             <h3 class="work__project-subtitle">Wax Motif</h3>
@@ -295,7 +317,9 @@
           <h3 class="work__project-title">Draze Force</h3>
           <div class="work__img-wrapper work__image2">
             <img
-              src="/portfolio/public/drazeforce.png"
+              class="lazy loading"
+              src="https://fakeimg.pl/900"
+              data-src="/portfolio/public/drazeforce.png"
               alt="draze force website"
             />
           </div>
@@ -316,7 +340,12 @@
           <!-- Project 3 -->
           <h3 class="work__project-title">Artren</h3>
           <div class="work__img-wrapper work__image3">
-            <img src="/portfolio/public/artren.png" alt="Artren" />
+            <img
+              class="lazy loading"
+              src="https://fakeimg.pl/900"
+              data-src="/portfolio/public/artren.png"
+              alt="Artren"
+            />
           </div>
           <div class="work__project work__content3">
             <h3 class="work__project-subtitle">Artren</h3>
@@ -335,7 +364,12 @@
           <!-- Project 4 -->
           <h3 class="work__project-title">Platform Pro</h3>
           <div class="work__img-wrapper work__image4">
-            <img src="/portfolio/public/platformpro.png" alt="Platform Pro" />
+            <img
+              class="lazy loading"
+              src="https://fakeimg.pl/900"
+              data-src="/portfolio/public/platformpro.png"
+              alt="Platform Pro"
+            />
           </div>
           <div class="work__project work__content4">
             <h3 class="work__project-subtitle">Platform Pro</h3>
@@ -355,7 +389,12 @@
           <!-- Project 5 -->
           <h3 class="work__project-title">Wally's Vegan</h3>
           <div class="work__img-wrapper work__image5">
-            <img src="/portfolio/public/wallysvegan.png" alt="Wally's Vegan" />
+            <img
+              class="lazy loading"
+              src="https://fakeimg.pl/900"
+              data-src="/portfolio/public/wallysvegan.png"
+              alt="Wally's Vegan"
+            />
           </div>
           <div class="work__project work__content5">
             <h3 class="work__project-subtitle">Wally's Vegan</h3>
@@ -374,7 +413,12 @@
           <!-- Project 6 -->
           <h3 class="work__project-title">Old Portfolio</h3>
           <div class="work__img-wrapper work__image6">
-            <img src="/portfolio/public/portfolio.png" alt="Portfolio" />
+            <img
+              class="lazy loading"
+              src="https://fakeimg.pl/900"
+              data-src="/portfolio/public/portfolio.png"
+              alt="Portfolio"
+            />
           </div>
           <div class="work__project work__content6">
             <h3 class="work__project-subtitle">Old Portfolio</h3>
@@ -413,5 +457,6 @@
     <script type="module" src="./src/main.js"></script>
     <script type="module" src="./src/utils/mobile-nav.js"></script>
     <script type="module" src="./src/utils/dark-mode.js"></script>
+    <script type="module" src="./src/utils/lazy-loading.js"></script>
   </body>
 </html>
